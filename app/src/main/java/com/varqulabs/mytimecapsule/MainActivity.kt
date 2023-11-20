@@ -35,7 +35,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Welcome to $name!",
         modifier = modifier,
-        fontWeight = FontWeight.Bold
+        fontWeight = FontWeight.SemiBold
     )
 }
 
