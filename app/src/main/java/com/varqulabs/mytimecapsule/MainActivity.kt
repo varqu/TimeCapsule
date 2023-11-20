@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.varqulabs.mytimecapsule.ui.theme.MyTimeCapsuleTheme
 
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Welcome to $name!",
-        modifier = modifier
+        modifier = modifier,
+        fontWeight = FontWeight.Bold
     )
 }
 
